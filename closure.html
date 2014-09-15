@@ -1,0 +1,22 @@
+<body>
+
+<input type = "button" id = "bouton1" value = "bouton1" >
+<input type = "button" id = "bouton2" value = "bouton2" >
+</body>
+<script>
+window.onload = function(){
+	for (var i = 1 ; i <= 2 ; i++){
+
+		(function (t){
+
+			document.getElementById("bouton"+t).onclick = function(event) {
+			console.log(this.id);
+			console.log(t);
+			};				
+
+		}) (i);
+
+	}
+};
+
+</script>
