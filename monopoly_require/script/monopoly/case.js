@@ -1,18 +1,18 @@
-define([],function(){
+define([], function() {
 
 
 
-	var Case = function(nom){
+	var Case = function(nom) {
 		this.nom = nom;
-		this.suivante = null;				
+		this.suivante = null;
 	};
 
-	Case.prototype ={
-		
-		landOnBy : function(deplacement) {
+	Case.prototype = {
+
+		landOnBy: function(deplacement) {
 
 		},
-		passOverBy : function(deplacement) {
+		passOverBy: function(deplacement) {
 
 		}
 
